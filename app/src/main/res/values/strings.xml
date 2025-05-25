@@ -19,4 +19,8 @@
         <string name="profile_image">Profile Image</string>
         <string name="refresh_available">. Refresh Available</string>
         <string name="credit_score">Credit Score</string>
+    <string name="profile">Profile</string>
+    <string name="cred_garage">CRED Garage</string>
+    <string name="transation_amp_support"><![CDATA[TRANSATION & SUPPORT]]></string>
+    <string name="refer_friends_amp_win_up_to_1000"><![CDATA[Refer friends & win up to ₹1000]]></string>
 </resources>

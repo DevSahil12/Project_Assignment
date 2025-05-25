@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+        <string name="all_transactions">all transactions</string>
+        <string name="transactions_amp_support"><![CDATA[TRANSACTIONS & SUPPORT]]></string>
+        <string name="win_upto_rs_1000_nrefer_and_earn">win upto Rs 1000\nrefer and earn</string>
+        <string name="coins_n26_46_583">coins\n26,46,583</string>
+        <string name="cashback_balance_n_0">cashback balance\n₹0</string>
+        <string name="your_rewards_amp_benefits"><![CDATA[YOUR REWARDS & BENEFITS]]></string>
+        <string name="check">check</string>
+        <string name="bank_balance">bank balance</string>
+        <string name="_3">₹3</string>
+        <string name="lifetime_cashback">lifetime cashback</string>
+        <string name="todo">TODO</string>
+        <string name="_757">757</string>
+        <string name="credit_score_refresh_available">credit score • REFRESH AVAILABLE</string>
+        <string name="get_to_know_your_vehicles_inside_out">get to know your vehicles, inside out</string>
+        <string name="member_since_dec_2020">member since Dec, 2020</string>
+        <string name="andaz_kumar">andaz Kumar</string>
+        <string name="profile_image">Profile Image</string>
+        <string name="refresh_available">. Refresh Available</string>
+        <string name="credit_score">Credit Score</string>
+</resources>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#1C1C1E">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Profile Section -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Profile Section -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp">
+
+                    <!-- Profile Image -->
+                    <ImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+
+                        android:background="@drawable/circle"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/profile_image" />
+
+                    <!-- User Name and Member Since -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:id="@+id/user_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/andaz_kumar"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif-medium" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/member_since_dec_2020"
+                            android:textColor="#AAAAAA"
+                            android:textSize="14sp"
+                            android:fontFamily="sans-serif-light" />
+                    </LinearLayout>
+
+                    <!-- Pencil Edit Icon -->
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/edit_24"
+                        android:background="@drawable/circle"
+                        android:padding="8dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/todo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222222"
+                android:layout_marginVertical="8dp" />
+
+            <!-- CRED Garage -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="#1E1E1E"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp">
+
+                <!-- Garage Icon -->
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+
+                <!-- Text -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/get_to_know_your_vehicles_inside_out"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif" />
+
+                <!-- Right Arrow Icon -->
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/arrow_right"
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Credit Score Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/credit_score"
+                    android:contentDescription="@string/todo"
+                    app:tint="#AAAAAA" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:text="@string/credit_score"
+                    android:textColor="#AAAAAA"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-70dp"
+                    android:layout_weight="1"
+                    android:text="@string/refresh_available"
+                    android:textColor="#00FF7F"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_757"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="8dp" />
+
+                <!-- Arrow Icon -->
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/arrow_right"
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Lifetime Cashback -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/currency_rupee"
+                    app:tint="#AAAAAA" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/lifetime_cashback"
+                    android:textColor="#AAAAAA"
+                    android:textSize="14sp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="@string/_3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/arrow_right"
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Bank Balance -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/bank_balance"
+                    app:tint="#AAAAAA" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/bank_balance"
+                    android:textColor="#AAAAAA"
+                    android:textSize="14sp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/check_balance"
+                    android:focusable="true"
+                    android:text="@string/check"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/arrow_right"
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+
+            </LinearLayout>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#222222"
+                android:layout_marginVertical="16dp" />
+
+            <!-- Rewards & Benefits Section -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_rewards_amp_benefits"
+                android:textColor="#888888"
+                android:textSize="14sp"
+                android:paddingBottom="8dp"
+                android:fontFamily="sans-serif-medium" />
+
+            <!-- Cashback Balance -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cashback_balance_n_0"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/tilt_right"
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Coins -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/coins_n26_46_583"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/tilt_right"
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <!-- Refer and Earn -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/win_upto_rs_1000_nrefer_and_earn"
+                    android:textColor="#00FFFF"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/tilt_right"
+                    android:contentDescription="@string/todo"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+
+            <!-- Transactions & Support -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/transactions_amp_support"
+                android:textColor="#888888"
+                android:textSize="12sp"
+                android:paddingTop="24dp"
+                android:paddingBottom="8dp" />
+
+            <!-- All Transactions -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/all_transactions"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:paddingVertical="8dp" />
+
+            <ImageView
+                android:layout_marginStart="310dp"
+                android:layout_marginTop="-30dp"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/tilt_right"
+                android:contentDescription="@string/todo"
+                app:tint="#FFFFFF" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
